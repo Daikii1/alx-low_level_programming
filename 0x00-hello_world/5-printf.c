@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* description: my first C program in alx using printif and its so cool to using it
+* description: using printif in this program
 * *Return: Always 0 (Success)
 */
 int main(void)
