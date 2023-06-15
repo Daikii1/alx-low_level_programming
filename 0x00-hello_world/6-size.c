@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * description:size of various types in c language
  * *Return: Always 0 (Success)
 */
 int main(void)
