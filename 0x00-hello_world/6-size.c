@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ * description : sizes
  * *Return: Always 0 (Success)
 */
 int main(void)
