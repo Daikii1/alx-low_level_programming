@@ -10,7 +10,7 @@ int main(void)
 
 	while (DG <= 9)
 	{
-	putchar(DG + '48');
+	putchar(DG + '0');
 	DG++;
 	}
 	putchar('\n');
