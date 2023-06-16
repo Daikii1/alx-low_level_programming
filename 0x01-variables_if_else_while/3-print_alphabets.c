@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-	char up = 'a';
-	char lo = 'A';
+	char UP = 'A';
+	char lo = 'a';
 
 	/*lowercaser*/
 	for (; lo <= 'z'; lo++)
@@ -16,9 +16,9 @@ int main(void)
 	}
 
 	/*uppercase*/
-	for (; up <= 'Z'; up++)
+	for (; UP <= 'Z'; UP++)
 	{
-		putchar(up);
+		putchar(UP);
 	}
 	putchar('\n');
 
