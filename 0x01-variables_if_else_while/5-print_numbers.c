@@ -10,9 +10,9 @@ int main(void)
 
 	for (nb = 0; nb < 10; nb++)
 	{
-	putchar('0' + nb);
+	 printf("%i", nb);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
 
