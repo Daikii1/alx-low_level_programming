@@ -6,13 +6,16 @@
 */
 int main(void)
 {
-	int nb;
+	int nb = 0;
 
-	for (nb = 0; nb < 10; nb++)
+	while (nb < 10)
 	{
-	 printf("%i", nb);
+		printf("%i", nb);
+		nb++;
 	}
 	printf("\n");
 	return (0);
 }
+
+
 
