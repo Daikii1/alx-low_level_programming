@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - entry point
  * alphabet without the e and q in c proogramming
