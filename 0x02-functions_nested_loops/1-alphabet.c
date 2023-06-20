@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- *main - entry point
- *description: a function thet print lower cas characters using for loop
- **Return: Return: Always 0
+ * print_alphabet - print all alphabet from a to z using for loop
 */
+
 void print_alphabet(void)
 {
 	int LC;
