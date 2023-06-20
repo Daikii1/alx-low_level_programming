@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  *main - entry point
- *@c:input
  *description: putchar printing
  *Return: Return: Always 0
 */
-int_putchar(char c)
+int_putchar(void)
 {
 	_putchar(95);
 	_putchar(112);
