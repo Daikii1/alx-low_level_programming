@@ -8,22 +8,27 @@ void times_table(void)
 
 	for (NB = 0; NB <= 9; NB++)
 	{
-		_putchar(48);
-		for (Multii = 1; Multii <= 9; Multii++)
+		for (Multii = 0; Multii <= 9; Multii++)
 		{
-			_putchar(',');
-			_putchar(' ');
-			PROD = NB * NB;
-			if (PROD <= 9)
+			PROD = NB * (Multii - 1);
+
+			if (PROD < 10)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 			else
 			{
-				_putchar((PROD / 10) + 48);
-				_putchar((PROD % 10) + 48);
+				putchar((PROD / 10) + '0');
+			}
+
+			putchar((PROD % 10) + '0');
+
+			if (Multii < 9)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
