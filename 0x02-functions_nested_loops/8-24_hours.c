@@ -1,7 +1,22 @@
 #include "main.h"
 /**
- * _islower - its a function to Verify the character is he lowercase
- * @c: input of the fucnition in ascii
- * Return: return 1 for lowercase and 0 if its not
+ * jack_bauer - its a functionthat can print time of day
 */
+void jack_bauer(void)
+{
+	int Hrr, Mnn;
+
+	for (int Hrr = 0; Hrr < 24; Hrr++)
+	{
+		for (int Mnn = 0; Mnn < 60; Mnn++)
+		{
+			putchar(Hrr / 10 + '0');
+			putchar(Hrr % 10 + '0');
+			putchar(':');
+			putchar(Mnn / 10 + '0');
+			putchar(Mnn % 10 + '0');
+			putchar('\n');
+		}
+	}
+}
 
