@@ -14,4 +14,5 @@ int main(void)
 	 _putchar(104);
 	 _putchar(97);
 	 _putchar(11);
+	 return (0);
 }
