@@ -16,6 +16,6 @@ int print_last_digit(int NB)
 	{
 		LD = NB % 10;
 	}
-	_putchar(LD + '48');
+	_putchar(LD + '0');
 	return (LD);
 }
