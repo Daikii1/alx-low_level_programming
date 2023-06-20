@@ -4,7 +4,7 @@
  *description: putchar printing
  *Return: Return: Always 0
 */
-int_putchar(void)
+int main(void)
 {
 	_putchar(95);
 	_putchar(112);
