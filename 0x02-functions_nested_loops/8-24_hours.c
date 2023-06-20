@@ -4,8 +4,6 @@
 */
 void jack_bauer(void)
 {
-	int Hrr, Mnn;
-
 	for (int Hrr = 0; Hrr < 24; Hrr++)
 	{
 		for (int Mnn = 0; Mnn < 60; Mnn++)
