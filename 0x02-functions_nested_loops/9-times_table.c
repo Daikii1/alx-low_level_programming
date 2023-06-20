@@ -1,6 +1,29 @@
 #include "main.h"
 /**
- * _islower - its a function to Verify the character is he lowercase
- * @c: input of the fucnition in ascii
- * Return: return 1 for lowercase and 0 if its not
+ * times_table - this fucntion prints table 9 times
+*/
+void times_table(void)
+{
+	int NB, Multii, PROD;
 
+	for (NB = 0; NB <= 9; NB++)
+	{
+		_putchar(48);
+		for (Multii = 1; Multii <= 9; Multii++)
+		{
+			_putchar(',');
+			_putchar(' ');
+			PROD = NB * NB;
+			if (PROD <= 9)
+			{
+				_putchar(' ')
+			}
+			else
+			{
+				_putchar((PROD / 10) + 48);
+				_putchar((PROD % 10) + 48);
+			}
+			_putchar('\n');
+		}
+	}
+}
