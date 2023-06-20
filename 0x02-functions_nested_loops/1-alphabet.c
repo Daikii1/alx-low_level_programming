@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *description: a function that print lower cas characters using for loop
+ *main - entry point
+ *description: a function thet print lower cas characters using for loop
+ **Return: Return: Always 0
 */
 void print_alphabet(void)
 {
