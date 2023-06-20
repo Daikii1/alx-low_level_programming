@@ -16,14 +16,14 @@ void times_table(void)
 			PROD = NB * NB;
 			if (PROD <= 9)
 			{
-				_putchar(' ')
+				_putchar(' ');
 			}
 			else
 			{
 				_putchar((PROD / 10) + 48);
 				_putchar((PROD % 10) + 48);
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
