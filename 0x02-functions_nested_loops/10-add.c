@@ -7,7 +7,7 @@
  * Return: sum
  */
 
-int add(int NB1, int NB2)
+int add(int NB1, NB2)
 {
 	int SUM;
 
