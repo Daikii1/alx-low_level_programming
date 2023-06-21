@@ -2,11 +2,11 @@
 
 /**
  * add - function that adds two numbers
- * @a: first number 1
- * @b: second number 2
+ * @nb1: first number 1
+ * @nb2: second number 2
  * Return: The sum of the Inputs
  */
-int add(int a, int b)
+int add(int nb1, int nb2)
 {
-	return (a + b);
+	return (nb1 + nb2);
 }
