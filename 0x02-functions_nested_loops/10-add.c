@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * add - function that makes adds
- * @u: number 1
- * @k: number 2
- * Return: sum
+ * add - function that adds two numbers
+ * @a: first number 1
+ * @b: second number 2
+ * Return: The sum of the Inputs
  */
-int add(int u, int, k)
+int add(int a, int b)
 {
-	int sum = u + k;
-
-	return (sum);
+	return (a + b);
 }
