@@ -29,7 +29,7 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
-			printf("%i", a);
+			printf("%i", b);
 		}
 	}
 	printf("\n");
