@@ -1,17 +1,12 @@
 #include "main.h"
 
 /**
- * add - function to adds two integers
- * @NB1: number 1
- * @NB2: number 2
+ * add - function that makes adds
+ * @u: number 1
+ * @k: number 2
  * Return: sum
  */
-
-int add(int NB1, NB2)
+int add(int u, int, k)
 {
-	int SUM;
-
-	SUM = NB1 + NB2;
-
-	return (SUM);
+	return (u + k);
 }
