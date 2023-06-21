@@ -2,7 +2,7 @@
 
 /**
  * _isalpha -  function
- * @c: the input to verfiy 
+ * @c: the input to verfiy
  * Return: 1 when is letter
  */
 int _isalpha(int c)
