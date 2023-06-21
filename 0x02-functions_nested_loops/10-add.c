@@ -11,7 +11,7 @@ int add(int NB1, int NB2)
 {
 	int SUM;
 
-	sum = NB1 + NB2;
+	SUM = NB1 + NB2;
 
 	return (SUM);
 }
