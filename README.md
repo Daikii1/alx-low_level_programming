@@ -1,1 +1,1 @@
- starting learning the c
+thats my readme
