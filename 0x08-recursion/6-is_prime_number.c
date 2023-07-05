@@ -16,7 +16,7 @@ int myFunction(int nb, int cpt)
 	}
 	else
 	{
-		return (myFunction(num, cpt + 1));
+		return (myFunction(nb, cpt + 1));
 	}
 	}
 	else
