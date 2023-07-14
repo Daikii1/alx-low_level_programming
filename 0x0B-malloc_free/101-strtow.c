@@ -59,7 +59,7 @@ char **strtow(char *str)
 			}
 		}
 		for (j = 0; cpt <= c; cpt++, j++)
-			outy[i][j] = str[a1];
+			outy[i][j] = str[cpt];
 		outy[i][j] = '\0';
 	}
 	outy[i] = NULL;
