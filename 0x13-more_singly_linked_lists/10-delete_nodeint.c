@@ -9,14 +9,14 @@ int delete_nodeint_at_index(listint_t **head, unsigned int idx)
 {
 	listint_t *tmp, *tmp_2;
 	unsigned int cpt;
+
 	cpt = 0;
 	tmp = *head;
-	
 	while (tmp)
 	{
 		if (cpt == (idx - 1))
 		{
-			tmp_a = (tmp->next)->next;
+			tmp_2 = (tmp->next)->next;
 			free(tmp->next);
 			tmp->next = tmp_2;
 			return (1);
