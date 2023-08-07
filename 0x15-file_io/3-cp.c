@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * error_file - checks if files can be opened.
+ * error_file - The apc checks if files Can be opened.
  * @file_from: The ,file_from.
  * @file_to: The file_to.
  * @argv: The Arguments vector.
@@ -12,8 +12,8 @@ void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-		exit(98);
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+	exit(98);
 	}
 	if (file_to == -1)
 	{
@@ -23,7 +23,7 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main -The program check the code for ALXSchool students.
+ * main -The program check the code for ALX School students.
  * @argc:This is the number of arguments.
  * @argv: The arguments vector.
  * Return: Always (0).
