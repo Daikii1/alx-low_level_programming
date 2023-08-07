@@ -49,10 +49,10 @@ int main(int argc, char *argv[])
 	{
 		N_chars = read(file_from, buf, 1024);
 		if (N_chars == -1)
-			error_file(-1, 0, argv);
+			err_file(-1, 0, argv);
 		n_wr = write(file_to, buf, N_chars);
 		if (n_wr == -1)
-			error_file(0, -1, argv);
+			err_file(0, -1, argv);
 	}
 
 	err_c = close(file_from);
