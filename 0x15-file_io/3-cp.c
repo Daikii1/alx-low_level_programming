@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * error_file - The apc checks if files Can be opened.
+ * err_file - The apc checks if files Can be opened.
  * @file_from: The ,file_from.
  * @file_to: The file_to.
  * @argv: The Arguments vector.
