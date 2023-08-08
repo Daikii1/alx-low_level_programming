@@ -2,12 +2,12 @@
 #include "dog.h"
 
 /**
- * _copy  - creat
+ * _copy_str  - creat
  * @src:the src
  * Return:P
  */
 
-char *_copy(char *src)
+char *_copy_str(char *src)
 {
 	char *ptr;
 	int cpt, ln;
@@ -60,7 +60,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	n_name = _copy(name);
+	n_name = _copy_str(name);
 	if (n_name == NULL)
 	{
 		free(felix);
@@ -70,7 +70,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	(*felix).age = age;
 
-	n_owner = _copy(owner);
+	n_owner = _copy_str(owner);
 	if (n_owner == NULL)
 	{
 		free((*felix).name);
